@@ -7,6 +7,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.form-group {
+  width: 275px;
+  margin: 0 auto;
+}
+.input-group {
+  width: 275px;
+  margin: 0 auto;
+}
+.centered {
+  text-align: center;
+}
+.weather {
+  margin-top: 30px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
