@@ -17,6 +17,7 @@ app.use('/api/cities', require('./api/cities'));
 app.use('/api/weather', require('./api/weather'));
 
 if(ENV === 'production') {
+  console.log("Production");
   app.use(express.static(path.join(__dirname, '../client.build')));
   app.use((req, res) => {
     res.sendFile(path.join(__dirname, '../client/build/index.html'));
